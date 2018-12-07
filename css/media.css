@@ -1,0 +1,90 @@
+@media screen and (max-width: 680px){
+header .flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+/*	align-items: center;*/
+}
+.main-nav{
+	padding-left: 0;
+}
+.main-nav ul{
+	padding-left: 0;
+}
+.main-nav li{
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.main-nav a {
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #868686;
+	padding: 4px 2px;
+	border-radius: 4px;
+}
+.inputs{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.inputs .tab{
+	margin:5px;
+}
+
+.items {
+	padding-left: 20px;
+	padding-right: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.item{
+	width: 100%;
+}
+.inputs{
+	padding-left: 30px;
+}
+.item-2 .fa-cog,
+.item-4 .fa-rocket{
+	margin-left: 0px;
+}
+.item-6 .fa-dollar-sign{
+	margin-left: 0px;
+}
+.item-2,
+.item-4,
+.item-6{
+	padding-left: 80px;
+}
+.box .first::before{
+	content: "";
+	width: 123px;
+	height: 123px;
+	border-radius: 50%;
+	display: inline-block;
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top:82px;
+	left:20px;
+}
+.box{
+	width: 100%;
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 35px 30px 37px 165px;
+	position: relative;
+}
+.boxes .box .first {
+	line-height: 1.7;
+}
+.section-2 p{
+	margin: 0;
+	padding-bottom: 0px;
+}
+

@@ -1,0 +1,279 @@
+body{
+	color: #7b7b7b;
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+	font-size: 13px;
+	line-height: 1.3;
+	margin: 0;
+}
+.container{
+	min-width: 320px;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+header{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+header .flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-nav li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+}
+.main-nav a {
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #868686;
+	padding: 6px 20px;
+	border-radius: 4px;
+}
+.main-nav a:hover{
+	background: #ffbb42;
+	color: #fff;
+}
+#nav-btn{
+	display: none;
+}
+/*-----section-1--------*/
+
+.section-1{
+	background: #709dca;
+	text-align: center;
+	padding: 100px 0 340px 0;
+	position: relative;
+}
+.section-1 h1{
+	font-size: 35px;
+	font-weight: 800;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+.section-1 p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 33px;
+}
+.section-1 img{
+	position: absolute;
+	bottom: -65px;
+	left:50%;
+	transform: translateX(-50%);
+}
+.inputs{
+	display: flex;
+}
+.inp{
+	position: relative;
+}
+.inputs input{
+	width: 280px;
+	height: 48px;
+	color: #a9a9a9;
+	font-size: 13px;
+	margin-left: 10px;
+	padding-left: 35px;
+	border-radius: 4px;
+	border-style: none;
+}
+.field-1 i{
+	width: 18px;
+	height: 100%;
+	background: url(../images/man.png) 50% 50% no-repeat;
+	position: absolute;
+	top:0;
+	left:20px;
+}
+.field-2 i{
+	width: 18px;
+	height: 100%;
+	background: url(../images/letter.png) 50% 50% no-repeat;
+	position: absolute;
+	top:0;
+	left:20px;
+}
+.field-3 i{
+	width: 18px;
+	height: 100%;
+	background: url(../images/telephon.png) 50% 50% no-repeat;
+	position: absolute;
+	top:0;
+	left:20px;
+}
+.inputs .last{
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	background: #ffbb42;
+	border-style: none;
+}
+
+/*----------section-2---------*/
+
+.section-2 .text-1{
+	text-align: center;
+	margin-top: 200px;
+}
+.section-2 h2{
+	font-size: 30px;
+	font-weight: 800;
+	color: #394b50;
+	text-transform: uppercase;
+	margin:0;
+}
+.section-2 p{
+	margin: 0;
+	padding-bottom: 70px;
+}
+.items p{
+	font-size: 13px;
+	font-weight: 400;
+	color: #394b50;
+	margin: 0;
+	padding-bottom: 50px;
+	line-height: 1.7;
+}
+.items {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item{
+	width: 50%;
+	padding-left: 80px;
+	position: relative;
+}
+.item h3{
+	font-size: 16px;
+	font-weight: 600px;
+	text-transform: uppercase;
+	color: #394b50;
+}
+
+.items .item a{
+	text-decoration: none;
+}
+.items i {
+	font-size: 45px;
+	color:#709dca;
+	position: absolute;
+	top: 17px;
+	left:0;
+}
+
+.section-2 .items .item:hover i{
+	color: #f6772c;
+}
+.item-2 .fa-cog,
+.item-4 .fa-rocket{
+	margin-left: 20px;
+}
+.item-6 .fa-dollar-sign{
+	margin-left: 40px;
+}
+.item-2,
+.item-4,
+.item-6{
+	padding-left: 100px;
+}
+.section-2{
+	padding-bottom: 66px;
+}
+/*-------------section-3-------------*/
+
+.section-3{
+	background: #ffc155;
+	padding-top: 138px;
+	padding-bottom: 140px;
+}
+.section-3 h2{
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+}
+.text-2 p{
+	font-size: 16px;
+	color: #fff;
+	margin: 0;
+	padding-bottom: 47px;
+}
+.text-2 {
+	text-align: center;
+}
+.boxes{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.box{
+	width: 48.5%;
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 42px 30px 37px 185px;
+	position: relative;
+}
+.boxes .box .first {
+	line-height: 1.7;
+}
+.box .first::before{
+	content: "";
+	width: 123px;
+	height: 123px;
+	border-radius: 50%;
+	display: inline-block;
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top:45px;
+	left:29px;
+}
+.box-1 .first::before{
+	background-position: -14px -13px;
+}
+.box-2 .first::before{
+	background-position: -270px -30px;
+}
+.box-3 .first::before{
+	background-position: -25px -270px;
+}
+.box-4 .first::before{
+	background-position: -250px -245px;
+}
+
+.box .first::after{
+	content:"\201D";
+}
+.box h4{
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 23px
+}
+.box span{
+	color: #f6772c;
+}
+
+footer{
+	text-align: center;
+	color: #fff;
+	background: #709dca;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
